@@ -1,0 +1,38 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Mystery"
+    },
+    {
+      "id": 2,
+      "name": "Historical"
+    },
+    {
+      "id": 3,
+      "name": "Thriller"
+    }
+  ],
+  "authors": [
+    {
+      "name": "BRIT BENNETT ",
+      "genre": "Historical",
+      "id": 1
+    },
+    {
+      "name": "OCEAN VUONG",
+      "genre": "Historical",
+      "id": 2
+    },
+    {
+      "name": " DAN BROWN",
+      "genre": "Thriller",
+      "id": 3
+    },
+    {
+      "name": "ANGIE THOMAS",
+      "genre": "Mystery",
+      "id": 5
+    }
+  ]
+}

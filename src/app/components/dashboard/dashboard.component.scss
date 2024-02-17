@@ -1,0 +1,26 @@
+.router-container{
+  padding:25px 0
+}
+header{
+  padding:20px 0;
+  background: gray;
+}
+
+.menu{
+  display: flex;
+  width:50%;
+  margin:auto;
+  justify-content: space-around;
+  li{
+    list-style-type: none;
+    a{
+      text-decoration: none;
+      font-size:20px;
+      color:white;
+      cursor:pointer;
+      :hover{
+
+      }
+    }
+  }
+}

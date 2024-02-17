@@ -1,0 +1,49 @@
+.question{
+  position: fixed;
+  height: 100vh;
+  z-index: 997;
+  background-color: rgba(0, 0, 0, .2);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.questionClose{
+  z-index: 998;
+  position:absolute;
+  top:30%;
+  right:37%;
+  width: auto;
+  display: block;
+  background-color:white;
+  padding:20px 20px 30px 20px;
+p{
+  font-size: 19px;
+  font-family: Manrope;
+  font-weight: 600;
+
+}
+&__buttons{
+   margin-top:20px;
+   display: flex;
+   justify-content: space-around;
+}
+  &__delete{
+      padding:13px 35px;
+      font-size: 17px;
+      background: #c64848;
+      border:none;
+      color: white;
+      font-weight: 600;
+  }
+  &__cancel{
+    padding:13px 35px;
+    font-size: 17px;
+    background: grey;
+    border:none;
+    color: #453535;
+    font-weight: 600;
+  }
+}
+.questionOpen{
+  display: block;
+}

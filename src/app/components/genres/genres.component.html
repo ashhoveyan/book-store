@@ -1,0 +1,15 @@
+<div class="container">
+  <table>
+      <caption>
+            Genres
+      </caption>
+    <tr *ngFor="let genre of genres">
+      <td>{{genre.id}}</td>
+      <td>{{genre.name}}</td>
+      <td>
+        <button (click)="deleteGenre(genre.id)">Delete</button>
+        <button>Update</button>
+      </td>
+    </tr>
+  </table>
+</div>
